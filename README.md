@@ -5,8 +5,8 @@ So, you've vibe-coded something cool for your phone with [Bolt.new](https://bolt
 
 We'll divide this into a few different phases. Take things one step at a time, there's a handful of little and somewhat bigger things to do, but you'll get through them :).
 
-## Last mile development and testing
-_You'll want to download your app from Bolt so you can do a few things on your computer. Nothing big- mostly adding some configuration that you'll need to build the standalone version of your app and send it to the stores.
+## Tools and accounts you'll need
+Get these things in order first to make the rest of the steps go smoothly.
 
 ### Grab some tools
 _I really like Bolt's Github connection option, so I'll focus on that. but you can also use the Export button and work with the files without connecting them to Github_
@@ -14,4 +14,13 @@ _I really like Bolt's Github connection option, so I'll focus on that. but you c
 - [ ] Download [Github Desktop](https://github.com/apps/desktop) (there's other ways, but Github Desktop is super-easy; just a few clicks and you'll be syncing between Bolt and your desktop)
 - [ ] Download [Visual Studio Code](https://code.visualstudio.com/) (you'll use this to edit a few files)
 - [ ] Create an [Expo](https://expo.dev) account (you'll use this to build and publish your app)
+
+### Sign up as a developer for the stores
+_You'll need accounts with Google and Apple in order to publish to the stores. It can take a little time to get these fully-enabled, so, once you have something you want to publish, sign up for these first_
+- [ ] Sign up for the [Apple Developer](https://developer.apple.com/) program ($99 USD/year)
+- [ ] Sign up as a [Google Play developer](https://play.google.com/console/u/0/signup) ($25 USD one-time)
+
+## Last mile development and testing
+_You'll want to download your app from Bolt so you can do a few things on your computer. Nothing big- mostly adding some configuration that you'll need to build the standalone version of your app and send it to the stores.
+
 
