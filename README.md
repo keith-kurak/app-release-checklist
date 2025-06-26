@@ -21,6 +21,7 @@ _You'll need accounts with Google and Apple in order to publish to the stores. I
 - [ ] Sign up as a [Google Play developer](https://play.google.com/console/u/0/signup) ($25 USD one-time)
 
 ## Last mile development and testing
-_You'll want to download your app from Bolt so you can do a few things on your computer. Nothing big- mostly adding some configuration that you'll need to build the standalone version of your app and send it to the stores.
+_Once you download your app to your computer and open it in Visual Studio Code, you can complete a few tasks on your way to the stores. Just a few configuration bits, no major coding._
+- [ ] Run `npx testflight` to build your iOS app and submit it to the App Store for testing and eventual release.
 
 
