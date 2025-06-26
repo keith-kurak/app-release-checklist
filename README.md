@@ -22,6 +22,19 @@ _You'll need accounts with Google and Apple in order to publish to the stores. I
 
 ## Last mile development and testing
 _Once you download your app to your computer and open it in Visual Studio Code, you can complete a few tasks on your way to the stores. Just a few configuration bits, no major coding._
-- [ ] Run `npx testflight` to build your iOS app and submit it to the App Store for testing and eventual release.
 
+### Web
+- [ ] Run `npx expo export --platform web` to build your web project
+- [ ] Run `npx eas-cli deploy --prod` to deploy to web.
 
+### Android
+- [ ] Run `eas build --profile production --platform android` to build your Play Store-ready app
+
+### iOS
+- [ ] Run `npx testflight` to build your iOS app and submit it to the App Store for testing and eventual release
+
+## Prep for the stores
+
+### Screenshots
+- [ ] Take at least two screenshots on one of your devices
+- [ ] Mock up screenshots for iPhone 16 Pro Max and an Android phone with https://app-mockup.com/
