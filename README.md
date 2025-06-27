@@ -36,6 +36,7 @@ _Download your app to your computer to run the deployment commands (use the file
 - [ ] Run `eas build --profile production --platform android` to build your Play Store-ready app
 - [ ] Create a store listing at https://play.google.com/console, upload your app to the "Internal" track to start testing, and use the link to install it
   - Another option: use the `preview` build profile to create an APK file you can sideload.
+  - NOTE: new Play Store developer accounts will need to meet pre-release testing requirements before final release [Learn more](https://support.google.com/googleplay/android-developer/answer/14151465?hl=en)
 
 ### Web
 - [ ] Run `npx expo export --platform web` to build your web project
