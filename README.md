@@ -5,7 +5,7 @@ So, you've vibe-coded something cool for your phone with [Bolt.new](https://bolt
 
 We'll divide this into a few different phases. Take things one step at a time, there's a handful of little and somewhat bigger things to do, but you'll get through them :).
 
-## 1. Finishing Touches to your code in Bolt
+## 1. Finishing touches to your code in Bolt
 _You could technically do these after downloading your project, but might as well do them here, especially the parts that Bolt can generate for you_
 - [ ] Create an icon and splash screen image, add them to your project. Follow the guide here: https://docs.expo.dev/develop/user-interface/splash-screen-and-app-icon/
   - Our Figma template (above link) is really helpful for the layout. You can draw your own icon, use tools in Figma, or even ask ChatGPT to generate a logo with a transparent background.
