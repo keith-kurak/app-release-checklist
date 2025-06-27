@@ -75,7 +75,7 @@ _With everything in order, just fill everything out until the App Store and Play
   - [ ] In the main page ("1.0" release), add your screenshots, description, review information, and select the build that was uploaded via `npx testflight`
   - [ ] In **App Information**, set your app name (must be unique), category, and age rating
   - [ ] In **App Privacy**, set your privacy policy URL, indicate any data you collect, and click Publish
-- [ ] - [ ] On the main page, click Add for Review to submit!
+- [ ] On the main page, click Add for Review to submit!
 
 ### Play Store (Android)
 - [ ] On the [Play Store Console](https://play.google.com/console), go to the app you created earlier.
