@@ -21,6 +21,9 @@ _You'll need accounts with Google and Apple in order to publish to the stores. I
 ## 3. Build and deploy (and test!)
 _Download your app to your computer to run the deployment commands (use the file export or Github connection)_
 
+### All
+- [ ] If there's any features you can't test in Expo Go, add those and create a [Development Build](https://docs.expo.dev/develop/development-builds/introduction/) to wrap up development.
+
 ### iOS
 - [ ] Run `npx testflight` to build your iOS app and submit it to the App Store for testing and eventual release
   - Check your email to confirm that your app submitted successfully to Testflight
@@ -35,8 +38,11 @@ _Download your app to your computer to run the deployment commands (use the file
 - [ ] Run `npx expo export --platform web` to build your web project
 - [ ] Run `npx eas-cli deploy --prod` to deploy to web.
 
-## 3. Get your image assets in order
-_You'll need a handful of images while filling out your store listing. Let's make them now._
+### Optional
+- [ ] Consider integrating [EAS Update](https://docs.expo.dev/eas-update/introduction/) so you can make many bugfixes without resubmitting to the stores.
+
+## 3. Get your assets and copy in order
+_You'll need a handful of images and some text while filling out your store listing. Let's make them now._
 
 ### Screenshots
 _Recommendation: Use https://app-mockup.com/ (free) to create the correct sized screenshots with borders/designs, so you can use any device's screenshots when making them_
@@ -50,11 +56,36 @@ _Recommendation: Use https://app-mockup.com/ (free) to create the correct sized 
 
 ### Others
 
+#### App Store / Play Store
+- [ ] Store description
+  - Let Bolt or ChatGPT generate this for you!
+
 #### Play Store
 - [ ] 512 x 512px version of the icon
   - resize the iOS icon in macOS Preview or MS Paint
 - [ ] 1024 x 500px feature graphic
   - Ask ChatGPT to generate one based off your app icon
+- [ ] Short description (up to 80 characters)
+
+## 4. Submit to the stores!
+_With everything in order, just fill everything out until the App Store and Play Store let you submit!_
+
+### App Store (iOS)
+- [ ] Go to [App Store Connect](https://appstoreconnect.apple.com/) to complete the store listing that was automatically created for you
+  - [ ] In the main page ("1.0" release), add your screenshots, description, review information, and select the build that was uploaded via `npx testflight`
+  - [ ] In **App Information**, set your app name (must be unique), category, and age rating
+  - [ ] In **App Privacy**, set your privacy policy URL, indicate any data you collect, and click Publish
+- [ ] - [ ] On the main page, click Add for Review to submit!
+
+### Play Store (Android)
+- [ ] On the [Play Store Console](https://play.google.com/console), go to the app you created earlier.
+- [ ] Start on the **Dashboard** and keep clicking into all the tasks until they're done:
+  - [ ] Setup privacy policy, content rating, all the disclosures about news apps, government apps, etc.
+  - [ ] Set contact details
+  - [ ] Setup store listing (you'll use your screenshots, feature graphic, icon, description, and short description here
+  - [ ] At the very bottom of the Dashboard, click on "Select countries and regions" to set app availability
+- [ ] Under Test and Release -> Testing -> Internal, choose your release and promote it to Production.
+- [ ] Back on Dashboard, submit for review!
 
 ## Appendix
 
