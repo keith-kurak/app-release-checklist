@@ -5,6 +5,9 @@ So, you've vibe-coded something cool for your phone with [Bolt.new](https://bolt
 
 We'll divide this into a few different phases. Take things one step at a time, there's a handful of little and somewhat bigger things to do, but you'll get through them :).
 
+### How to use
+Do whatever works for you, but I like to copy this markdown into a new Issue in your app's Github repo. That way, you can check it off as you go!
+
 ## 1. Finishing touches to your code in Bolt
 _You could technically do these after downloading your project, but might as well do them here, especially the parts that Bolt can generate for you_
 - [ ] Create an icon and splash screen image, add them to your project. Follow the guide here: https://docs.expo.dev/develop/user-interface/splash-screen-and-app-icon/
@@ -87,7 +90,7 @@ _With everything in order, just fill everything out until the App Store and Play
 - [ ] Under Test and Release -> Testing -> Internal, choose your release and promote it to Production.
 - [ ] Back on Dashboard, submit for review!
 
-## Appendix
+# Appendix
 
 ### Tools and accounts you'll probably use as you complete these steps
 
